@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Titillium+Web:wght@300;400;600;700;900&display=swap");
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+
+
+.u_border span{
+  width: 100px;
+  height:100px;
+  display: inline-block;
+  background-color: #ddd;
+}
+
+.u_flex_item, .u_float_item{
+  width: 100px;
+  min-height: 40px;
+  line-height: 40px;
+  
+}
+
+.u_text p{
+  padding: 10px 20px;
+  background-color: #091b29;
+  color: #fff;
+  border-radius: 5px;
+
+}
+
+.overflow-auto{
+  height: 70px;
+}
+
+.overflow-hidden{
+  height: 70px;
+}
+
+.shadow_effect{
+  width: 40%;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+footer{
+  background-color: #091b29;
+}
+
+@media (max-width:575px){
+  .u_stretch_link{
+    width: 100% !important;
+  }
+}
